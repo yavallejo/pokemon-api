@@ -1,6 +1,4 @@
 import type { NextPage, GetStaticProps } from "next";
-import Head from "next/head";
-import Image from "next/image";
 import { Grid } from "@nextui-org/react";
 import { Layout } from "../components/layouts";
 import { pokeApi } from "../api";
@@ -14,7 +12,7 @@ interface Props {
 const Home: NextPage<Props> = ({ pokemons }) => {
     return (
         <Layout title="List Pokemons">
-            <Grid.Container gap="2">
+            <Grid.Container gap={2}>
                 {pokemons.map((pokemon) => (
                     <PokemonCard key={pokemon.id} pokemon={pokemon} />
                 ))}
