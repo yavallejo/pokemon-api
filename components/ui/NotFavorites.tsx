@@ -12,7 +12,7 @@ export const NotFavorites = () => {
                 alignSelf: "center",
             }}
         >
-            <Text h1>No hay favoritos</Text>
+            <Text h1>No favorites</Text>
             <Image
                 src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/132.svg"
                 width={250}

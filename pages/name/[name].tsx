@@ -72,8 +72,8 @@ const PokemonByNamePage: NextPage<Props> = ({ pokemon }) => {
                                 onClick={onToggleFavorites}
                             >
                                 {isInFavorites
-                                    ? "En Favoritos"
-                                    : "Guardar en favoritos"}
+                                    ? "In Favorites"
+                                    : "Save to favorites"}
                             </Button>
                         </Card.Header>
                         <Card.Body>
